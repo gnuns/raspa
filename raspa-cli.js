@@ -8,7 +8,7 @@ const mapDownloader = require('./lib/map-downloader');
 async function getMapLinks (url) {
   let path = await mapDownloader.download(url);
   fs.readFile(path, function(err, data) {
-    // TODO: ADD HANDLER TO PLAIN TEXT FILES
+    // TODO: Add handler to non-xml files
     parser.parseString(data, function (err, result) {
       if (err) return console.log(err);
       let mapId = Object.keys(result)[0];
