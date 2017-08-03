@@ -1,24 +1,22 @@
 {
-  "name": "mapscraper",
+  "name": "raspa",
   "version": "1.0.0",
   "description": "website scraping following sitemap",
-  "main": "mapscraper",
+  "main": "raspa",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gnuns/mapscraper.git"
+    "url": "git+https://github.com/gnuns/raspa.git"
   },
   "author": "gnuns",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gnuns/mapscraper/issues"
+    "url": "https://github.com/gnuns/raspa/issues"
   },
-  "homepage": "https://github.com/gnuns/mapscraper#readme",
+  "homepage": "https://github.com/gnuns/raspa#readme",
   "dependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0",
     "mongoose": "^4.8.4",
     "nightmare": "^2.9.1",
     "redis": "^2.6.5",
