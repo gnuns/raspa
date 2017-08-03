@@ -1,7 +1,7 @@
 # raspa
-a simple sitemap scraper
+a simple website scraper
 
-For now, you can only list links of a sitemap:
+For now, you can only list links on a sitemap:
 ```sh
 git clone https://github.com/gnuns/raspa
 npm install
