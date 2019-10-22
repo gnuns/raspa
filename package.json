@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/gnuns/raspa#readme",
   "dependencies": {
-    "mongoose": "^4.8.4",
+    "mongoose": "^5.7.5",
     "nightmare": "^2.9.1",
     "redis": "^2.6.5",
     "request": "^2.79.0",
